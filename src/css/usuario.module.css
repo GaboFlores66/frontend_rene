@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+    min-height: 92.8vh;
+    background: #f8f9fa;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    letter-spacing: -0.5px;
+}
+
+.data {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 1.5rem; /* Espaciado entre los botones */
+}
+
+.buttonEdit, .buttonDelete {
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.buttonEdit {
+    background-color: #4dabf7;
+    color: #fff;
+    border: none;
+}
+
+.buttonEdit:hover {
+    background-color: #339af0;
+    transform: translateY(-1px);
+}
+
+.buttonDelete {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+}
+
+.buttonDelete:hover {
+    background-color: #c0392b;
+    transform: translateY(-1px);
+}

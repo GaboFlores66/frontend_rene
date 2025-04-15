@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    padding: 1rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.leftGroup {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.link {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.link:hover {
+    color: #4dabf7;
+}
+
+.button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #4dabf7;
+    transform: translateY(-1px);
+}

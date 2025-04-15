@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    min-height: 92.8vh;
+    background: #f8f9fa;
+}
+
+.title {
+    color: #2c3e50;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form {
+    background-color: #ffffff;
+    padding: 3rem; /* Aumento el padding para dar más espacio */
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    width: 700px; /* Aumento considerable en el ancho */
+    border: 1px solid #e9ecef;
+}
+
+.input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #212529;
+    font-size: 1rem;
+}
+
+.button {
+    width: 100%;
+    padding: 1.2rem; /* Botón más grande */
+    background-color: #4dabf7;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem; /* Aumento el tamaño de la fuente del botón */
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 2rem;
+}
+
+.button:hover {
+    background-color: #339af0;
+    transform: translateY(-1px);
+}
